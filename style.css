@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --rosa: #F2A2B1;
+    --roxo: #BBADD9;
+    --azul: #A7C6D9;
+    --verde: #88BFB5;
+}
+
+body{
+    font-size: 100%;
+    background-color: #f5e4e7;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    align-content: space-around;
+    gap: 90px;
+}
+
+.cabecalho-menu .inst, .fbook, .whats{
+    height: 40px;
+}
+
+.conteudo{
+    border-top: 0.4px solid var(--roxo);
+    margin-bottom: auto;
+    padding: 30px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    font-size: 6em;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.568);
+    color: var(--roxo);
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.conteudo-principal-imagem{
+    width: 30vh;
+    margin: auto;
+}
+
+.conteudo-secundario{
+    font-family: 'Satisfy', cursive;
+    font-size: 1.4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid var(--roxo);
+    padding-top: 50px;
+}
+
+.footer{
+    margin-top: 50px;
+    border-top: 0.4px solid var(--roxo);
+}
+
+.footer-imagem{
+    padding: 32px;
+    display: block;
+    margin: 0 auto;
+}
